@@ -1,0 +1,33 @@
+[0m[[0minfo[0m] [0mRunning sample.cluster.simple.SimpleClusterApp [0m
+[0m[[0minfo[0m] [0m[INFO] [03/31/2014 15:15:10.930] [main] [Remoting] Starting remoting[0m
+[0m[[0minfo[0m] [0m[INFO] [03/31/2014 15:15:11.075] [main] [Remoting] Remoting started; listening on addresses :[akka.tcp://ClusterSystem@127.0.0.1:2551][0m
+[0m[[0minfo[0m] [0m[INFO] [03/31/2014 15:15:11.094] [main] [Cluster(akka://ClusterSystem)] Cluster Node [akka.tcp://ClusterSystem@127.0.0.1:2551] - Starting up...[0m
+[0m[[0minfo[0m] [0m[INFO] [03/31/2014 15:15:11.336] [main] [Cluster(akka://ClusterSystem)] Cluster Node [akka.tcp://ClusterSystem@127.0.0.1:2551] - Registered cluster JMX MBean [akka:type=Cluster][0m
+[0m[[0minfo[0m] [0m[INFO] [03/31/2014 15:15:11.336] [main] [Cluster(akka://ClusterSystem)] Cluster Node [akka.tcp://ClusterSystem@127.0.0.1:2551] - Started up successfully[0m
+[0m[[0minfo[0m] [0m[INFO] [03/31/2014 15:15:11.386] [main] [Remoting] Starting remoting[0m
+[0m[[0minfo[0m] [0m[INFO] [03/31/2014 15:15:11.391] [ClusterSystem-akka.actor.default-dispatcher-4] [Cluster(akka://ClusterSystem)] Cluster Node [akka.tcp://ClusterSystem@127.0.0.1:2551] - Metrics collection has started successfully[0m
+[0m[[0minfo[0m] [0m[INFO] [03/31/2014 15:15:11.393] [ClusterSystem-akka.actor.default-dispatcher-16] [akka.tcp://ClusterSystem@127.0.0.1:2551/user/clusterSingleton] Pong![0m
+[0m[[0minfo[0m] [0m[INFO] [03/31/2014 15:15:11.398] [main] [Remoting] Remoting started; listening on addresses :[akka.tcp://ClusterSystem@127.0.0.1:2552][0m
+[0m[[0minfo[0m] [0m[INFO] [03/31/2014 15:15:11.400] [main] [Cluster(akka://ClusterSystem)] Cluster Node [akka.tcp://ClusterSystem@127.0.0.1:2552] - Starting up...[0m
+[0m[[0minfo[0m] [0m[INFO] [03/31/2014 15:15:11.402] [main] [Cluster(akka://ClusterSystem)] Cluster Node [akka.tcp://ClusterSystem@127.0.0.1:2552] - Started up successfully[0m
+[0m[[0minfo[0m] [0m[INFO] [03/31/2014 15:15:11.402] [ClusterSystem-akka.actor.default-dispatcher-5] [Cluster(akka://ClusterSystem)] Cluster Node [akka.tcp://ClusterSystem@127.0.0.1:2552] - Metrics collection has started successfully[0m
+[0m[[0minfo[0m] [0m[INFO] [03/31/2014 15:15:11.404] [ClusterSystem-akka.actor.default-dispatcher-3] [akka.tcp://ClusterSystem@127.0.0.1:2552/user/clusterSingleton] Pong![0m
+[0m[[0minfo[0m] [0m[INFO] [03/31/2014 15:15:11.429] [main] [Remoting] Starting remoting[0m
+[0m[[0minfo[0m] [0m[INFO] [03/31/2014 15:15:11.441] [main] [Remoting] Remoting started; listening on addresses :[akka.tcp://ClusterSystem@127.0.0.1:56335][0m
+[0m[[0minfo[0m] [0m[INFO] [03/31/2014 15:15:11.444] [main] [Cluster(akka://ClusterSystem)] Cluster Node [akka.tcp://ClusterSystem@127.0.0.1:56335] - Starting up...[0m
+[0m[[0minfo[0m] [0m[INFO] [03/31/2014 15:15:11.446] [main] [Cluster(akka://ClusterSystem)] Cluster Node [akka.tcp://ClusterSystem@127.0.0.1:56335] - Started up successfully[0m
+[0m[[0minfo[0m] [0m[INFO] [03/31/2014 15:15:11.446] [ClusterSystem-akka.actor.default-dispatcher-5] [Cluster(akka://ClusterSystem)] Cluster Node [akka.tcp://ClusterSystem@127.0.0.1:56335] - Metrics collection has started successfully[0m
+[0m[[0minfo[0m] [0m[INFO] [03/31/2014 15:15:11.455] [ClusterSystem-akka.actor.default-dispatcher-18] [akka.tcp://ClusterSystem@127.0.0.1:56335/user/clusterSingleton] Pong![0m
+[0m[[0minfo[0m] [0m[INFO] [03/31/2014 15:15:11.550] [ClusterSystem-akka.actor.default-dispatcher-15] [akka://ClusterSystem/system/cluster/core/daemon/firstSeedNodeProcess] Message [akka.dispatch.sysmsg.Terminate] from Actor[akka://ClusterSystem/system/cluster/core/daemon/firstSeedNodeProcess#-714417238] to Actor[akka://ClusterSystem/system/cluster/core/daemon/firstSeedNodeProcess#-714417238] was not delivered. [1] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.[0m
+[0m[[0minfo[0m] [0m[INFO] [03/31/2014 15:15:11.552] [ClusterSystem-akka.actor.default-dispatcher-4] [Cluster(akka://ClusterSystem)] Cluster Node [akka.tcp://ClusterSystem@127.0.0.1:2551] - Node [akka.tcp://ClusterSystem@127.0.0.1:2551] is JOINING, roles [][0m
+[0m[[0minfo[0m] [0m[INFO] [03/31/2014 15:15:12.369] [ClusterSystem-akka.actor.default-dispatcher-4] [Cluster(akka://ClusterSystem)] Cluster Node [akka.tcp://ClusterSystem@127.0.0.1:2551] - Leader is moving node [akka.tcp://ClusterSystem@127.0.0.1:2551] to [Up][0m
+[0m[[0minfo[0m] [0m[INFO] [03/31/2014 15:15:12.371] [ClusterSystem-akka.actor.default-dispatcher-3] [akka.tcp://ClusterSystem@127.0.0.1:2551/user/clusterListener] Member is Up: akka.tcp://ClusterSystem@127.0.0.1:2551[0m
+[0m[[0minfo[0m] [0m[INFO] [03/31/2014 15:15:12.399] [ClusterSystem-akka.actor.default-dispatcher-16] [akka.tcp://ClusterSystem@127.0.0.1:2551/user/clusterSingleton] Pong![0m
+[0m[[0minfo[0m] [0m[INFO] [03/31/2014 15:15:12.404] [ClusterSystem-akka.actor.default-dispatcher-2] [akka.tcp://ClusterSystem@127.0.0.1:2552/user/clusterSingleton] Pong![0m
+[0m[[0minfo[0m] [0m[INFO] [03/31/2014 15:15:12.459] [ClusterSystem-akka.actor.default-dispatcher-15] [akka.tcp://ClusterSystem@127.0.0.1:56335/user/clusterSingleton] Pong![0m
+[0m[[0minfo[0m] [0m[INFO] [03/31/2014 15:15:13.411] [ClusterSystem-akka.actor.default-dispatcher-17] [akka.tcp://ClusterSystem@127.0.0.1:2551/user/clusterSingleton] Pong![0m
+[0m[[0minfo[0m] [0m[INFO] [03/31/2014 15:15:13.413] [ClusterSystem-akka.actor.default-dispatcher-2] [akka.tcp://ClusterSystem@127.0.0.1:2552/user/clusterSingleton] Pong![0m
+[0m[[0minfo[0m] [0m[INFO] [03/31/2014 15:15:13.459] [ClusterSystem-akka.actor.default-dispatcher-3] [akka.tcp://ClusterSystem@127.0.0.1:56335/user/clusterSingleton] Pong![0m
+[0m[[0minfo[0m] [0m[INFO] [03/31/2014 15:15:14.411] [ClusterSystem-akka.actor.default-dispatcher-18] [akka.tcp://ClusterSystem@127.0.0.1:2551/user/clusterSingleton] Pong![0m
+[0m[[0minfo[0m] [0m[INFO] [03/31/2014 15:15:14.425] [ClusterSystem-akka.actor.default-dispatcher-16] [akka.tcp://ClusterSystem@127.0.0.1:2552/user/clusterSingleton] Pong![0m
+[0m[[0minfo[0m] [0m[INFO] [03/31/2014 15:15:14.459] [ClusterSystem-akka.actor.default-dispatcher-5] [akka.tcp://ClusterSystem@127.0.0.1:56335/user/clusterSingleton] Pong![0m

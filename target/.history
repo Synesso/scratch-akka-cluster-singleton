@@ -1,0 +1,3 @@
+run-main sample.cluster.simple.SimpleClusterApp 2551
+run-main sample.cluster.simple.SimpleClusterApp
+run-main sample.cluster.simple.SimpleClusterApp 0
