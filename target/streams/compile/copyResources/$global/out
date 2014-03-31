@@ -1,5 +1,0 @@
-[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
-[0m[[0mdebug[0m] [0m	(/Users/mawsonj/projects/akka-sample-cluster-scala/src/main/resources/application.conf,/Users/mawsonj/projects/akka-sample-cluster-scala/target/scala-2.10/classes/application.conf)[0m
-[0m[[0mdebug[0m] [0m	(/Users/mawsonj/projects/akka-sample-cluster-scala/src/main/resources/factorial.conf,/Users/mawsonj/projects/akka-sample-cluster-scala/target/scala-2.10/classes/factorial.conf)[0m
-[0m[[0mdebug[0m] [0m	(/Users/mawsonj/projects/akka-sample-cluster-scala/src/main/resources/stats1.conf,/Users/mawsonj/projects/akka-sample-cluster-scala/target/scala-2.10/classes/stats1.conf)[0m
-[0m[[0mdebug[0m] [0m	(/Users/mawsonj/projects/akka-sample-cluster-scala/src/main/resources/stats2.conf,/Users/mawsonj/projects/akka-sample-cluster-scala/target/scala-2.10/classes/stats2.conf)[0m
