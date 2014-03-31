@@ -1,8 +1,8 @@
 package sample.cluster.simple
 
 import com.typesafe.config.ConfigFactory
-import akka.actor.ActorSystem
-import akka.actor.Props
+import akka.actor.{PoisonPill, ActorSystem, Props}
+import akka.contrib.pattern.ClusterSingletonManager
 
 object SimpleClusterApp {
   def main(args: Array[String]): Unit = {
@@ -19,7 +19,14 @@ object SimpleClusterApp {
     // Create an actor that handles cluster domain events
     system.actorOf(Props[SimpleClusterListener], name = "clusterListener")
 
-    system.actorOf(Props[SimpleClusterSingleton], name = "clusterSingleton")
+    val clusterSingletonProperties = ClusterSingletonManager.props(
+      singletonProps = Props(classOf[SimpleClusterSingleton]),
+      singletonName = "pinger-ponger",
+      terminationMessage = PoisonPill,
+      role = None
+    )
+
+    system.actorOf(clusterSingletonProperties, "clusterSingleton")
   }
 
 }
