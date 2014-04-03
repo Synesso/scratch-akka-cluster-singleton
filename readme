@@ -1,1 +1,0 @@
- sbt "run-main sample.cluster.simple.SimpleClusterApp  2552"
