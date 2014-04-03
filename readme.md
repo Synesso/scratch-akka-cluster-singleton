@@ -1,6 +1,6 @@
 # Running this example
 
-Edit src/main/resources/application.conf, correcting the ip addresses in akka.remote.netty.tcp.* and akka.cluster.seed-nodes
+Edit `src/main/resources/application.conf`, correcting the ip addresses in `akka.remote.netty.tcp.*` and `akka.cluster.seed-nodes`
 
 In separate terminals execute
 
