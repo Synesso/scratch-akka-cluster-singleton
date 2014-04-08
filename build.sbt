@@ -1,7 +1,9 @@
 import com.typesafe.sbt.SbtMultiJvm
 import com.typesafe.sbt.SbtMultiJvm.MultiJvmKeys.MultiJvm
 
-val akkaVersion = "2.3.1"
+val akkaVersion = "2.3.0" // todo upgrade to 2.3.2 once released!
+// 2.3.1 has a bug in clustering that stops the cluster from starting
+// when we use `xxxx.min-nr-of-members = 2`. Please use 2.3.0 for now, until 2.3.2 is out!
 
 val project = Project(
   id = "akka-sample-cluster-scala",

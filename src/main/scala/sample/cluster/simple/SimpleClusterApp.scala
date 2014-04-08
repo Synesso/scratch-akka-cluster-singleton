@@ -10,8 +10,20 @@ object SimpleClusterApp {
   }
 
   def startup(port: String): Unit = {
+    // we mark the seed nodes with a special role, and will require those to join before we spin up the singleton
+    val maybeSeed = if (port startsWith "255") "roles = [seed]" else ""
+
     // Override the configuration of the port
     val config = ConfigFactory.parseString("akka.remote.netty.tcp.port=" + port).
+      withFallback(ConfigFactory.parseString(
+        s"""
+           |akka.cluster {
+           |  $maybeSeed
+           |  role {
+           |    seed.min-nr-of-members = 2
+           |  }
+           |}
+           |""".stripMargin)).
       withFallback(ConfigFactory.load())
 
     // Create an Akka system
