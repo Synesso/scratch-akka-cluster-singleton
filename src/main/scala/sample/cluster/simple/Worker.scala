@@ -7,6 +7,7 @@ class Worker extends Actor with ActorLogging {
 
   override def receive: Actor.Receive = {
     case Work(id) => {
+      log.info(s"${Result(id)}")
       sender ! Result(id)
     }
   }

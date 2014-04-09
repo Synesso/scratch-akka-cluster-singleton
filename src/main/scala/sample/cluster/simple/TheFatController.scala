@@ -20,9 +20,6 @@ class TheFatController extends Actor with ActorLogging {
       workerRouter ! GetRoutees
       context.system.scheduler.scheduleOnce(10.seconds, self, Batch(Random.nextInt(10)))
     }
-    case r @ Result(id: Int) => {
-      //log.info(s"$sender responded with $r")
-    }
     case Routees(routees) => {
       val groupedByNode = routees.groupBy {
         _ match {
@@ -50,7 +47,7 @@ class TheFatController extends Actor with ActorLogging {
       ClusterRouterPoolSettings(
         totalInstances = 30,
         maxInstancesPerNode = 10,
-        allowLocalRoutees = false,
+        allowLocalRoutees = true,
         useRole = None)
     ).props(Props[Worker]), name = "worker-router")
   }
